@@ -22,5 +22,6 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "homepage": "http://fructuoso.github.io/"
 }
