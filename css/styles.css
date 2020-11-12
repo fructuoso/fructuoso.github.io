@@ -10238,3 +10238,8 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+nav.bg-secondary {
+  background-color: rgba(44, 62, 80, .40) !important;
+}
+
