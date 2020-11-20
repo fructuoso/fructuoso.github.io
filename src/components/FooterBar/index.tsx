@@ -1,9 +1,10 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
-import { AppBar, Box, IconButton } from '@material-ui/core';
+import { AppBar, Box, IconButton, SvgIcon } from '@material-ui/core';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { ReactComponent as HackerRankIcon } from 'static/img/icons/hackerrank.svg';
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
@@ -28,8 +29,8 @@ export default function FooterBar() {
                     <IconButton onClick={() => { window.open("https://www.github.com/fructuoso") }}>
                         <GitHubIcon color="secondary" fontSize="large" />
                     </IconButton>
-                    <IconButton onClick={() => { window.open("https://www.instagram.com/victorfructuoso/") }}>
-                        <InstagramIcon color="secondary" fontSize="large" />
+                    <IconButton onClick={() => { window.open("https://www.hackerrank.com/fructuoso") }}>
+                        <SvgIcon component={HackerRankIcon} color="secondary" fontSize="large" />
                     </IconButton>
                 </Box>
             </Box>
