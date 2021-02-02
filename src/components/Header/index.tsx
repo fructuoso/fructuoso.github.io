@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import { Avatar, Box, Typography } from '@material-ui/core';
-import avatar from 'static/img/avatar.jpeg';
+import avatar from 'static/img/avatar.jpg';
 import background from 'static/img/header-background.jpg';
 
 const useStyles = makeStyles((theme: Theme) =>
